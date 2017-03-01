@@ -123,3 +123,36 @@ body {
   margin-left: 170px;
   margin-top: 10px;
   color: #0454d8; }
+
+.searchResults {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 170px;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  color: #595959;
+  font-size: 14px; }
+
+.searchResults a {
+  color: green; }
+
+.firstResult {
+  margin-top: 45px;
+  margin-bottom: 5px; }
+
+.firstResult h4 a {
+  color: #0454d8; }
+
+.secondResult span {
+  font-size: 13px;
+  top: 767px;
+  position: absolute;
+  color: #999999; }
+
+.secondResult span a {
+  color: #0454d8; }
+
+.secondResult h4 a {
+  color: #0454d8; }
