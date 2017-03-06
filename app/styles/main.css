@@ -174,3 +174,98 @@ body {
 .secondResult h4 a {
   color: #0454d8;
 }
+
+.rightSide {
+  position: absolute;
+  top: 0px;
+  height: 123px;
+  background: #fafafa;
+  border-bottom: 1px solid #ebebeb;
+  margin-left: 782px;
+  z-index: -1;
+  width: 100%;
+}
+
+.button {
+  margin-left: 350px;
+  margin-top: 20px;
+  width: 70px;
+  height: 30px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #4286f4;
+  border-color: #4286f4;
+
+}
+
+.bio {
+  position: absolute;
+  top: 180px;
+  margin-left: 810px;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.19), 0px .6px .6px rgba(0,0,0,0.23);
+  border-radius: 3px;
+  width: 390px;
+}
+
+.portrait {
+  width: 195px;
+  margin-left: -25px;
+  margin-top: -20px;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row;
+  width: 195px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  height: 100px;
+  position: absolute;
+  margin-left: 210px;
+  top: 0px;
+}
+
+.gallery img {
+  padding: 0px;
+  margin: .5px;
+}
+
+.first {
+  width: 90px;
+  height: 70px;
+
+}
+
+.second {
+  width: 88px;
+  height: 70px;
+
+}
+
+.third {
+  width: 65px;
+  height: 77px;
+
+}
+
+.fourth {
+  width: 113px;
+  height: 77px;
+
+}
+
+.buttonTwo {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 15px;
+}
+
+.imageButton {
+  position: absolute;
+  top: 114px;
+  margin-left: 276px;
+}
+
+.buttonTwo a {
+  color: white;
+}
